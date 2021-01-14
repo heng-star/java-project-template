@@ -1,0 +1,1535 @@
+2020-11-18 14:07:07,276 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a00f5393] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:07:08,802 INFO No active profile set, falling back to default profiles: default
+
+2020-11-18 14:07:11,031 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:07:11,360 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-18 14:07:11,369 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-18 14:07:11,408 INFO Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+
+2020-11-18 14:07:11,482 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:07:11,712 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-18 14:07:11,826 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$c58699ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:07:11,877 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a00f5393] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:07:12,278 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-18 14:07:12,407 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:07:12,413 INFO Starting service [Tomcat]
+
+2020-11-18 14:07:12,414 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-18 14:07:12,420 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-18 14:07:12,565 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-18 14:07:12,565 INFO Root WebApplicationContext: initialization completed in 3751 ms
+
+2020-11-18 14:07:14,842 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-18 14:07:14,842 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-18 14:07:14,842 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-18 14:07:14,843 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-18 14:07:14,844 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-18 14:07:15,156 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-18 14:07:16,435 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:07:16,435 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:07:16,453 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:07:16,453 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:07:16,506 INFO Initializing ExecutorService
+
+2020-11-18 14:07:16,548 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-18 14:07:16,549 INFO OSGi support is false
+
+2020-11-18 14:07:16,565 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-18 14:07:16,577 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-18 14:07:16,583 INFO javax.el support is true
+
+2020-11-18 14:07:16,940 INFO Initializing ExecutorService
+
+2020-11-18 14:07:18,649 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-18 14:07:18,760 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:07:18,768 INFO Using a shared selector for servlet write/read
+
+2020-11-18 14:07:18,795 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-18 14:07:18,977 INFO Starting without optional epoll library
+
+2020-11-18 14:07:18,978 INFO Starting without optional kqueue library
+
+2020-11-18 14:07:21,271 INFO nacos registry, provider 192.168.43.12:9901 register finished
+
+2020-11-18 14:07:21,274 INFO Started DemoProviderApplication in 16.232 seconds (JVM running for 19.644)
+
+2020-11-18 14:07:23,402 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-18 14:07:23,404 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-18 14:07:23,414 INFO Completed initialization in 10 ms
+
+2020-11-18 14:07:32,078 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:32,273 WARN 获取yml中的frame.i18n.support属性报错:{}
+
+java.lang.NullPointerException: null
+	at com.lvmoney.frame.base.core.util.YmlUtil.getProperty(YmlUtil.java:83)
+	at com.lvmoney.frame.base.core.api.ApiResult.<clinit>(ApiResult.java:24)
+	at com.lvmoney.frame.core.web.FrameErrorController.handleError(FrameErrorController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:07:32,559 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:33,162 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:33,774 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:34,390 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:34,990 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:35,607 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:36,101 ERROR Required int parameter 'name' is not present。error详情:{}
+
+org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'name' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:07:36,204 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:49,983 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-18 14:07:50,227 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:50,829 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:51,440 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:52,058 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:52,674 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:56,933 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:57,541 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:58,157 WARN No mapping for GET /favicon.ico
+
+2020-11-18 14:07:58,469 ERROR Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1ddd"。error详情:{}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1ddd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:132)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "1ddd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:210)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:466)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:192)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:99)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:52)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:692)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:124)
+	... 49 common frames omitted
+2020-11-18 14:08:19,630 ERROR Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1ddd"。error详情:{}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1ddd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:132)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "1ddd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:210)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:466)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:192)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:99)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:52)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:692)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:124)
+	... 49 common frames omitted
+2020-11-18 14:10:06,141 INFO Shutting down ExecutorService
+
+2020-11-18 14:10:06,142 INFO De-registering from Nacos Server now...
+
+2020-11-18 14:10:06,381 INFO De-registration finished.
+
+2020-11-18 14:10:50,496 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$79f3b62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:10:52,204 INFO No active profile set, falling back to default profiles: default
+
+2020-11-18 14:10:53,029 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:10:53,290 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-18 14:10:53,293 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-18 14:10:53,319 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-18 14:10:53,372 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:10:53,553 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-18 14:10:53,658 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$2d1681bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:10:53,699 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$79f3b62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:10:54,049 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-18 14:10:54,166 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:10:54,173 INFO Starting service [Tomcat]
+
+2020-11-18 14:10:54,173 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-18 14:10:54,180 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-18 14:10:54,352 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-18 14:10:54,352 INFO Root WebApplicationContext: initialization completed in 2135 ms
+
+2020-11-18 14:10:56,460 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-18 14:10:56,460 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-18 14:10:56,461 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-18 14:10:56,461 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-18 14:10:56,462 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-18 14:10:56,641 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-18 14:10:57,780 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:10:57,780 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:10:57,788 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:10:57,788 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:10:57,852 INFO Initializing ExecutorService
+
+2020-11-18 14:10:57,876 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-18 14:10:57,877 INFO OSGi support is false
+
+2020-11-18 14:10:57,884 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-18 14:10:57,887 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-18 14:10:57,894 INFO javax.el support is true
+
+2020-11-18 14:10:58,281 INFO Initializing ExecutorService
+
+2020-11-18 14:10:59,942 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-18 14:11:00,056 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:11:00,065 INFO Using a shared selector for servlet write/read
+
+2020-11-18 14:11:00,091 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-18 14:11:00,202 INFO Starting without optional epoll library
+
+2020-11-18 14:11:00,205 INFO Starting without optional kqueue library
+
+2020-11-18 14:11:02,373 INFO nacos registry, provider 192.168.43.12:9901 register finished
+
+2020-11-18 14:11:02,376 INFO Started DemoProviderApplication in 14.62 seconds (JVM running for 17.099)
+
+2020-11-18 14:11:03,232 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-18 14:11:03,233 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-18 14:11:03,242 INFO Completed initialization in 9 ms
+
+2020-11-18 14:11:30,618 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-18 14:11:33,168 WARN 获取yml中的frame.i18n.support属性报错:{}
+
+java.lang.NullPointerException: null
+	at com.lvmoney.frame.base.core.util.YmlUtil.getProperty(YmlUtil.java:83)
+	at com.lvmoney.frame.base.core.api.ApiResult.<clinit>(ApiResult.java:24)
+	at com.lvmoney.frame.demo.provider.controller.DemoController.testShiro(DemoController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:11:38,857 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:13:12,417 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:13:26,897 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:13:34,303 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:16:02,027 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:18:22,437 INFO Shutting down ExecutorService
+
+2020-11-18 14:18:22,437 INFO De-registering from Nacos Server now...
+
+2020-11-18 14:18:22,541 INFO De-registration finished.
+
+2020-11-18 14:18:44,438 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7eddaeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:18:45,861 INFO No active profile set, falling back to default profiles: default
+
+2020-11-18 14:18:46,517 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:18:46,733 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-18 14:18:46,735 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-18 14:18:46,758 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-18 14:18:46,803 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:18:46,958 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-18 14:18:47,052 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ed652146] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:18:47,083 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c7eddaeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:18:47,366 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-18 14:18:47,477 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:18:47,483 INFO Starting service [Tomcat]
+
+2020-11-18 14:18:47,484 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-18 14:18:47,490 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-18 14:18:47,657 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-18 14:18:47,657 INFO Root WebApplicationContext: initialization completed in 1784 ms
+
+2020-11-18 14:18:49,919 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-18 14:18:49,920 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-18 14:18:49,920 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-18 14:18:49,920 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-18 14:18:49,922 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-18 14:18:50,108 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-18 14:18:51,234 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:18:51,234 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:18:51,240 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:18:51,240 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:18:51,279 INFO Initializing ExecutorService
+
+2020-11-18 14:18:51,298 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-18 14:18:51,299 INFO OSGi support is false
+
+2020-11-18 14:18:51,305 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-18 14:18:51,308 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-18 14:18:51,314 INFO javax.el support is true
+
+2020-11-18 14:18:51,580 INFO Initializing ExecutorService
+
+2020-11-18 14:18:53,047 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-18 14:18:53,149 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:18:53,157 INFO Using a shared selector for servlet write/read
+
+2020-11-18 14:18:53,175 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-18 14:18:53,275 INFO Starting without optional epoll library
+
+2020-11-18 14:18:53,277 INFO Starting without optional kqueue library
+
+2020-11-18 14:18:54,947 INFO nacos registry, provider 192.168.43.12:9901 register finished
+
+2020-11-18 14:18:54,950 INFO Started DemoProviderApplication in 12.766 seconds (JVM running for 15.003)
+
+2020-11-18 14:18:55,305 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-18 14:18:55,306 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-18 14:18:55,317 INFO Completed initialization in 10 ms
+
+2020-11-18 14:19:23,143 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-18 14:19:32,972 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:20:04,002 WARN 获取yml中的frame.i18n.support属性报错:{}
+
+java.lang.NullPointerException: null
+	at com.lvmoney.frame.base.core.util.YmlUtil.getProperty(YmlUtil.java:83)
+	at com.lvmoney.frame.base.core.api.ApiResult.<clinit>(ApiResult.java:24)
+	at com.lvmoney.frame.base.rm.advice.FrameExceptionHandlerAdvice.handleBindException(FrameExceptionHandlerAdvice.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:21:15,719 INFO Shutting down ExecutorService
+
+2020-11-18 14:21:15,720 INFO De-registering from Nacos Server now...
+
+2020-11-18 14:21:15,819 INFO De-registration finished.
+
+2020-11-18 14:24:31,008 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a30de8da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:24:32,546 INFO No active profile set, falling back to default profiles: default
+
+2020-11-18 14:24:33,650 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:24:33,875 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-18 14:24:33,877 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-18 14:24:33,901 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-18 14:24:33,952 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:24:34,129 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-18 14:24:34,238 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$c8852f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:24:34,272 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a30de8da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:24:34,582 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-18 14:24:34,705 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:24:34,712 INFO Starting service [Tomcat]
+
+2020-11-18 14:24:34,712 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-18 14:24:34,719 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-18 14:24:34,896 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-18 14:24:34,896 INFO Root WebApplicationContext: initialization completed in 2329 ms
+
+2020-11-18 14:24:36,944 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-18 14:24:36,944 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-18 14:24:36,944 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-18 14:24:36,945 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-18 14:24:36,946 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-18 14:24:37,110 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-18 14:24:38,115 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:24:38,116 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:24:38,121 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:24:38,121 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:24:38,161 INFO Initializing ExecutorService
+
+2020-11-18 14:24:38,180 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-18 14:24:38,181 INFO OSGi support is false
+
+2020-11-18 14:24:38,187 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-18 14:24:38,190 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-18 14:24:38,195 INFO javax.el support is true
+
+2020-11-18 14:24:38,454 INFO Initializing ExecutorService
+
+2020-11-18 14:24:39,945 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-18 14:24:40,047 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:24:40,056 INFO Using a shared selector for servlet write/read
+
+2020-11-18 14:24:40,074 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-18 14:24:40,170 INFO Starting without optional epoll library
+
+2020-11-18 14:24:40,171 INFO Starting without optional kqueue library
+
+2020-11-18 14:24:41,863 INFO nacos registry, provider 192.168.43.12:9901 register finished
+
+2020-11-18 14:24:41,866 INFO Started DemoProviderApplication in 13.126 seconds (JVM running for 15.32)
+
+2020-11-18 14:24:42,967 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-18 14:24:42,969 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-18 14:24:42,978 INFO Completed initialization in 9 ms
+
+2020-11-18 14:25:04,041 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:25:06,435 WARN 获取yml中的frame.i18n.support属性报错:{}
+
+java.lang.NullPointerException: null
+	at com.lvmoney.frame.base.core.util.YmlUtil.getProperty(YmlUtil.java:83)
+	at com.lvmoney.frame.base.core.api.ApiResult.<clinit>(ApiResult.java:24)
+	at com.lvmoney.frame.base.rm.advice.FrameExceptionHandlerAdvice.handleBindException(FrameExceptionHandlerAdvice.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:25:10,218 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-18 14:25:49,485 INFO Shutting down ExecutorService
+
+2020-11-18 14:25:49,486 INFO De-registering from Nacos Server now...
+
+2020-11-18 14:25:49,583 INFO De-registration finished.
+
+2020-11-18 14:26:00,896 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$daaed2fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:26:02,323 INFO No active profile set, falling back to default profiles: default
+
+2020-11-18 14:26:03,032 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:26:03,245 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-18 14:26:03,247 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-18 14:26:03,269 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-18 14:26:03,317 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:26:03,469 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-18 14:26:03,555 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$261956] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:26:03,586 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$daaed2fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:26:03,857 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-18 14:26:03,962 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:26:03,969 INFO Starting service [Tomcat]
+
+2020-11-18 14:26:03,969 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-18 14:26:03,975 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-18 14:26:04,109 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-18 14:26:04,109 INFO Root WebApplicationContext: initialization completed in 1775 ms
+
+2020-11-18 14:26:05,927 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-18 14:26:05,928 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-18 14:26:05,928 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-18 14:26:05,928 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-18 14:26:05,930 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-18 14:26:06,059 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-18 14:26:07,055 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:26:07,055 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:26:07,061 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:26:07,061 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:26:07,101 INFO Initializing ExecutorService
+
+2020-11-18 14:26:07,120 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-18 14:26:07,121 INFO OSGi support is false
+
+2020-11-18 14:26:07,128 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-18 14:26:07,131 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-18 14:26:07,137 INFO javax.el support is true
+
+2020-11-18 14:26:07,405 INFO Initializing ExecutorService
+
+2020-11-18 14:26:08,902 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-18 14:26:09,004 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:26:09,012 INFO Using a shared selector for servlet write/read
+
+2020-11-18 14:26:09,030 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-18 14:26:09,126 INFO Starting without optional epoll library
+
+2020-11-18 14:26:09,128 INFO Starting without optional kqueue library
+
+2020-11-18 14:26:10,814 INFO nacos registry, provider 192.168.43.12:9901 register finished
+
+2020-11-18 14:26:10,817 INFO Started DemoProviderApplication in 12.252 seconds (JVM running for 14.85)
+
+2020-11-18 14:26:11,864 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-18 14:26:11,865 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-18 14:26:11,873 INFO Completed initialization in 7 ms
+
+2020-11-18 14:26:39,002 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-18 14:27:52,684 ERROR org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]。error详情:{}
+
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'testAo' on field 'no': rejected value [1aaa]; codes [typeMismatch.testAo.no,typeMismatch.no,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [testAo.no,no]; arguments []; default message [no]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'no'; nested exception is java.lang.NumberFormatException: For input string: "1aaa"]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:27:52,764 WARN 获取yml中的frame.i18n.support属性报错:{}
+
+java.lang.NullPointerException: null
+	at com.lvmoney.frame.base.core.util.YmlUtil.getProperty(YmlUtil.java:83)
+	at com.lvmoney.frame.base.core.api.ApiResult.<clinit>(ApiResult.java:24)
+	at com.lvmoney.frame.base.rm.advice.FrameExceptionHandlerAdvice.handleBindException(FrameExceptionHandlerAdvice.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:136)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:154)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:122)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-18 14:32:41,461 INFO Shutting down ExecutorService
+
+2020-11-18 14:32:41,462 INFO De-registering from Nacos Server now...
+
+2020-11-18 14:32:41,559 INFO De-registration finished.
+
+2020-11-18 14:32:52,639 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85b670e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:32:54,096 INFO No active profile set, falling back to default profiles: default
+
+2020-11-18 14:32:54,829 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:32:55,031 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-18 14:32:55,033 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-18 14:32:55,055 INFO Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+
+2020-11-18 14:32:55,101 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-18 14:32:55,256 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-18 14:32:55,343 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ab2db743] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:32:55,376 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85b670e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-18 14:32:55,645 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-18 14:32:55,748 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:32:55,754 INFO Starting service [Tomcat]
+
+2020-11-18 14:32:55,754 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-18 14:32:55,760 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-18 14:32:55,899 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-18 14:32:55,900 INFO Root WebApplicationContext: initialization completed in 1792 ms
+
+2020-11-18 14:32:57,696 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-18 14:32:57,696 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-18 14:32:57,697 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-18 14:32:57,697 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-18 14:32:57,698 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-18 14:32:57,836 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-18 14:32:58,878 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:32:58,878 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:32:58,884 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-18 14:32:58,884 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-18 14:32:58,925 INFO Initializing ExecutorService
+
+2020-11-18 14:32:58,945 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-18 14:32:58,946 INFO OSGi support is false
+
+2020-11-18 14:32:58,953 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-18 14:32:58,956 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-18 14:32:58,962 INFO javax.el support is true
+
+2020-11-18 14:32:59,248 INFO Initializing ExecutorService
+
+2020-11-18 14:33:00,747 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-18 14:33:00,848 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-18 14:33:00,856 INFO Using a shared selector for servlet write/read
+
+2020-11-18 14:33:00,874 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-18 14:33:00,968 INFO Starting without optional epoll library
+
+2020-11-18 14:33:00,969 INFO Starting without optional kqueue library
+
+2020-11-18 14:33:02,656 INFO nacos registry, provider 192.168.43.12:9901 register finished
+
+2020-11-18 14:33:02,658 INFO Started DemoProviderApplication in 12.427 seconds (JVM running for 14.704)
+
+2020-11-18 14:33:03,476 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-18 14:33:03,477 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-18 14:33:03,485 INFO Completed initialization in 8 ms
+
+2020-11-18 14:33:30,865 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-18 14:45:46,236 INFO Shutting down ExecutorService
+
+2020-11-18 14:45:46,237 INFO De-registering from Nacos Server now...
+
+2020-11-18 14:45:46,515 INFO De-registration finished.
+

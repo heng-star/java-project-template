@@ -1,0 +1,730 @@
+2020-11-16 18:14:07,999 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f7b093d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:14:09,478 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:14:09,647 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.lvmoney.frame.demo.provider.application.DemoProviderApplication]; nested exception is java.io.FileNotFoundException: class path resource [interceptorOrder.properties] cannot be opened because it does not exist
+
+2020-11-16 18:14:09,649 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2020-11-16 18:14:09,664 ERROR Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.lvmoney.frame.demo.provider.application.DemoProviderApplication]; nested exception is java.io.FileNotFoundException: class path resource [interceptorOrder.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.lvmoney.frame.demo.provider.application.DemoProviderApplication.main(DemoProviderApplication.java:27)
+Caused by: java.io.FileNotFoundException: class path resource [interceptorOrder.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:73)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:59)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:67)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:452)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 13 common frames omitted
+2020-11-16 18:15:16,842 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$39babf2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:15:18,334 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:15:19,021 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:15:19,226 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:15:19,228 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:15:19,250 INFO Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+
+2020-11-16 18:15:19,298 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:15:19,450 INFO BeanFactory id=df8d3d77-42a0-338b-8bf5-8e764d047dad
+
+2020-11-16 18:15:19,538 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$5f320589] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:15:19,569 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$39babf2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:15:19,837 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:15:19,852 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:15:19,858 INFO Starting service [Tomcat]
+
+2020-11-16 18:15:19,858 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:15:19,958 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:15:20,108 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:15:20,108 INFO Root WebApplicationContext: initialization completed in 1762 ms
+
+2020-11-16 18:15:21,954 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:15:21,955 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:15:21,955 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:15:21,955 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:15:21,956 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:15:22,087 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:15:23,094 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:15:23,095 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:15:23,100 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:15:23,100 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:15:23,141 INFO Initializing ExecutorService
+
+2020-11-16 18:15:23,161 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:15:23,163 INFO OSGi support is false
+
+2020-11-16 18:15:23,169 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:15:23,172 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:15:23,178 INFO javax.el support is true
+
+2020-11-16 18:15:23,453 INFO Initializing ExecutorService
+
+2020-11-16 18:15:25,009 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:15:25,146 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:15:25,155 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:15:25,173 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:15:25,223 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:15:25,226 INFO Started DemoProviderApplication in 10.712 seconds (JVM running for 12.717)
+
+2020-11-16 18:15:26,323 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:15:26,324 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:15:26,332 INFO Completed initialization in 8 ms
+
+2020-11-16 18:15:26,348 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:15:26,417 INFO Starting without optional epoll library
+
+2020-11-16 18:15:26,419 INFO Starting without optional kqueue library
+
+2020-11-16 18:26:04,013 INFO Shutting down ExecutorService
+
+2020-11-16 18:26:04,013 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:26:04,019 INFO De-registration finished.
+
+2020-11-16 18:26:13,040 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa82cf8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:26:14,537 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:26:15,194 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:26:15,404 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:26:15,406 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:26:15,428 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-16 18:26:15,475 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:26:15,626 INFO BeanFactory id=df8d3d77-42a0-338b-8bf5-8e764d047dad
+
+2020-11-16 18:26:15,713 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$cffa15e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:26:15,745 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa82cf8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:26:16,029 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:26:16,043 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:26:16,049 INFO Starting service [Tomcat]
+
+2020-11-16 18:26:16,049 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:26:16,166 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:26:16,307 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:26:16,307 INFO Root WebApplicationContext: initialization completed in 1759 ms
+
+2020-11-16 18:26:18,191 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:26:18,192 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:26:18,192 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:26:18,192 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:26:18,194 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:26:18,407 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:26:19,441 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:26:19,441 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:26:19,448 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:26:19,448 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:26:19,488 INFO Initializing ExecutorService
+
+2020-11-16 18:26:19,507 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:26:19,508 INFO OSGi support is false
+
+2020-11-16 18:26:19,514 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:26:19,518 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:26:19,523 INFO javax.el support is true
+
+2020-11-16 18:26:19,785 INFO Initializing ExecutorService
+
+2020-11-16 18:26:21,349 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:26:21,452 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:26:21,461 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:26:21,480 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:26:21,529 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:26:21,532 INFO Started DemoProviderApplication in 10.967 seconds (JVM running for 13.092)
+
+2020-11-16 18:26:22,412 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:26:22,413 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:26:22,422 INFO Completed initialization in 8 ms
+
+2020-11-16 18:26:22,506 INFO Starting without optional epoll library
+
+2020-11-16 18:26:22,508 INFO Starting without optional kqueue library
+
+2020-11-16 18:26:22,650 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:27:12,059 INFO Shutting down ExecutorService
+
+2020-11-16 18:27:12,060 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:27:12,066 INFO De-registration finished.
+
+2020-11-16 18:27:21,084 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0db9f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:27:22,931 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:27:23,643 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:27:23,849 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:27:23,851 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:27:23,873 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-16 18:27:23,919 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:27:24,073 INFO BeanFactory id=df8d3d77-42a0-338b-8bf5-8e764d047dad
+
+2020-11-16 18:27:24,162 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$e652e5b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:27:24,194 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0db9f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:27:24,467 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:27:24,481 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:27:24,488 INFO Starting service [Tomcat]
+
+2020-11-16 18:27:24,488 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:27:24,583 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:27:24,727 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:27:24,727 INFO Root WebApplicationContext: initialization completed in 1782 ms
+
+2020-11-16 18:27:26,588 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:27:26,589 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:27:26,589 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:27:26,589 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:27:26,590 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:27:26,725 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:27:27,762 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:27:27,762 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:27:27,767 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:27:27,768 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:27:27,808 INFO Initializing ExecutorService
+
+2020-11-16 18:27:27,828 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:27:27,829 INFO OSGi support is false
+
+2020-11-16 18:27:27,835 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:27:27,838 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:27:27,844 INFO javax.el support is true
+
+2020-11-16 18:27:28,126 INFO Initializing ExecutorService
+
+2020-11-16 18:27:29,694 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:27:29,806 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:27:29,816 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:27:29,837 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:27:29,891 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:27:29,894 INFO Started DemoProviderApplication in 11.336 seconds (JVM running for 13.484)
+
+2020-11-16 18:27:30,901 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:27:30,902 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:27:30,910 INFO Completed initialization in 8 ms
+
+2020-11-16 18:27:30,993 INFO Starting without optional epoll library
+
+2020-11-16 18:27:30,994 INFO Starting without optional kqueue library
+
+2020-11-16 18:27:31,043 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:28:09,587 INFO Shutting down ExecutorService
+
+2020-11-16 18:28:09,588 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:28:09,615 INFO De-registration finished.
+
+2020-11-16 18:28:35,374 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1bd4df37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:28:36,864 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:28:37,507 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:28:37,718 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:28:37,720 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:28:37,743 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-16 18:28:37,789 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:28:37,939 INFO BeanFactory id=df8d3d77-42a0-338b-8bf5-8e764d047dad
+
+2020-11-16 18:28:38,026 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$414c2592] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:28:38,056 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1bd4df37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:28:38,331 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:28:38,344 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:28:38,351 INFO Starting service [Tomcat]
+
+2020-11-16 18:28:38,352 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:28:38,451 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:28:38,587 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:28:38,588 INFO Root WebApplicationContext: initialization completed in 1712 ms
+
+2020-11-16 18:28:40,423 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:28:40,424 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:28:40,424 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:28:40,424 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:28:40,425 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:28:40,562 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:28:41,562 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:28:41,562 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:28:41,568 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:28:41,568 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:28:41,607 INFO Initializing ExecutorService
+
+2020-11-16 18:28:41,625 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:28:41,626 INFO OSGi support is false
+
+2020-11-16 18:28:41,632 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:28:41,635 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:28:41,641 INFO javax.el support is true
+
+2020-11-16 18:28:41,902 INFO Initializing ExecutorService
+
+2020-11-16 18:28:43,423 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:28:43,526 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:28:43,534 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:28:43,553 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:28:43,619 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:28:43,622 INFO Started DemoProviderApplication in 10.54 seconds (JVM running for 12.692)
+
+2020-11-16 18:28:44,772 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:28:45,119 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:28:45,119 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:28:45,128 INFO Completed initialization in 8 ms
+
+2020-11-16 18:28:45,230 INFO Starting without optional epoll library
+
+2020-11-16 18:28:45,232 INFO Starting without optional kqueue library
+
+2020-11-16 18:30:01,205 INFO Shutting down ExecutorService
+
+2020-11-16 18:30:01,206 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:30:01,232 INFO De-registration finished.
+
+2020-11-16 18:30:12,534 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e489f657] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:30:14,027 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:30:14,722 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:30:14,936 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:30:14,939 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:30:14,962 INFO Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+
+2020-11-16 18:30:15,009 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:30:15,160 INFO BeanFactory id=df8d3d77-42a0-338b-8bf5-8e764d047dad
+
+2020-11-16 18:30:15,247 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$a013cb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:30:15,277 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e489f657] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:30:15,548 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:30:15,562 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:30:15,568 INFO Starting service [Tomcat]
+
+2020-11-16 18:30:15,569 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:30:15,668 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:30:15,806 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:30:15,806 INFO Root WebApplicationContext: initialization completed in 1764 ms
+
+2020-11-16 18:30:17,654 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:30:17,655 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:30:17,655 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:30:17,655 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:30:17,656 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:30:17,788 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:30:18,795 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:30:18,796 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:30:18,801 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:30:18,801 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:30:18,842 INFO Initializing ExecutorService
+
+2020-11-16 18:30:18,865 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:30:18,866 INFO OSGi support is false
+
+2020-11-16 18:30:18,873 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:30:18,876 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:30:18,881 INFO javax.el support is true
+
+2020-11-16 18:30:19,176 INFO Initializing ExecutorService
+
+2020-11-16 18:30:20,746 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:30:20,846 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:30:20,855 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:30:20,873 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:30:20,923 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:30:20,925 INFO Started DemoProviderApplication in 10.682 seconds (JVM running for 12.755)
+
+2020-11-16 18:30:22,039 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:30:22,061 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:30:22,061 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:30:22,070 INFO Completed initialization in 9 ms
+
+2020-11-16 18:30:22,151 INFO Starting without optional epoll library
+
+2020-11-16 18:30:22,153 INFO Starting without optional kqueue library
+
+2020-11-16 18:31:58,239 INFO Shutting down ExecutorService
+
+2020-11-16 18:31:58,239 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:31:58,275 INFO De-registration finished.
+
+2020-11-16 18:37:36,525 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3aacec88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:37:38,519 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:37:39,437 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:37:39,728 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:37:39,731 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:37:39,758 INFO Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+
+2020-11-16 18:37:39,820 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:37:40,004 INFO BeanFactory id=df8d3d77-42a0-338b-8bf5-8e764d047dad
+
+2020-11-16 18:37:40,091 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$602432e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:37:40,123 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3aacec88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:37:40,434 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:37:40,448 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:37:40,455 INFO Starting service [Tomcat]
+
+2020-11-16 18:37:40,455 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:37:40,574 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:37:40,742 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:37:40,742 INFO Root WebApplicationContext: initialization completed in 2203 ms
+
+2020-11-16 18:37:42,646 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:37:42,647 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:37:42,647 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:37:42,647 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:37:42,648 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:37:42,789 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:37:43,837 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:37:43,838 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:37:43,844 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:37:43,844 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:37:43,886 INFO Initializing ExecutorService
+
+2020-11-16 18:37:43,905 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:37:43,906 INFO OSGi support is false
+
+2020-11-16 18:37:43,912 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:37:43,916 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:37:43,922 INFO javax.el support is true
+
+2020-11-16 18:37:44,193 INFO Initializing ExecutorService
+
+2020-11-16 18:37:45,791 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:37:45,909 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:37:45,919 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:37:45,940 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:37:46,036 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:37:46,039 INFO Started DemoProviderApplication in 12.134 seconds (JVM running for 15.241)
+
+2020-11-16 18:37:47,082 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:37:47,083 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:37:47,093 INFO Completed initialization in 9 ms
+
+2020-11-16 18:37:47,148 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:37:47,174 INFO Starting without optional epoll library
+
+2020-11-16 18:37:47,176 INFO Starting without optional kqueue library
+
+2020-11-16 18:42:14,709 INFO Shutting down ExecutorService
+
+2020-11-16 18:42:14,710 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:42:14,726 INFO De-registration finished.
+
+2020-11-16 18:42:35,745 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87d4a76c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:42:37,238 INFO No active profile set, falling back to default profiles: default
+
+2020-11-16 18:42:37,892 WARN Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:42:38,111 INFO Multiple Spring Data modules found, entering strict repository configuration mode!
+
+2020-11-16 18:42:38,113 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+
+2020-11-16 18:42:38,138 INFO Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+
+2020-11-16 18:42:38,185 WARN Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+
+2020-11-16 18:42:38,337 INFO BeanFactory id=185be7a0-024b-31b4-a57c-c2559a0e9c49
+
+2020-11-16 18:42:38,423 INFO Bean 'redisConfig' of type [com.lvmoney.frame.cache.redis.config.RedisConfig$$EnhancerBySpringCGLIB$$ad4bedc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:42:38,455 INFO Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87d4a76c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-11-16 18:42:38,735 INFO Tomcat initialized with port(s): 9901 (http)
+
+2020-11-16 18:42:38,749 INFO Initializing ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:42:38,851 INFO Starting service [Tomcat]
+
+2020-11-16 18:42:38,852 INFO Starting Servlet Engine: Apache Tomcat/9.0.12
+
+2020-11-16 18:42:38,858 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\soft\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\soft\java\jdk1.8\bin;D:\soft\java\jdk1.8\jre\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\apache-maven-3.6.1\bin;D:\soft\Git\cmd;D:\soft\tortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\soft\IntelliJ IDEA 2019.1.3\bin;;C:\Users\lvmoney\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-11-16 18:42:39,005 INFO Initializing Spring embedded WebApplicationContext
+
+2020-11-16 18:42:39,005 INFO Root WebApplicationContext: initialization completed in 1756 ms
+
+2020-11-16 18:42:40,852 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-11-16 18:42:40,852 INFO Mapping filter: 'webMvcMetricsFilter' to: [/*]
+
+2020-11-16 18:42:40,852 INFO Mapping filter: 'httpTraceFilter' to: [/*]
+
+2020-11-16 18:42:40,852 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-11-16 18:42:40,854 INFO Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+
+2020-11-16 18:42:40,993 WARN Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+
+2020-11-16 18:42:42,001 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:42:42,001 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:42:42,007 WARN No URLs will be polled as dynamic configuration sources.
+
+2020-11-16 18:42:42,007 INFO To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+
+2020-11-16 18:42:42,046 INFO Initializing ExecutorService
+
+2020-11-16 18:42:42,066 INFO Initializing Dozer. Version: 6.4.1, Thread Name: main
+
+2020-11-16 18:42:42,067 INFO OSGi support is false
+
+2020-11-16 18:42:42,073 INFO Trying to find Dozer configuration file: dozer.properties
+
+2020-11-16 18:42:42,075 INFO Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+
+2020-11-16 18:42:42,080 INFO javax.el support is true
+
+2020-11-16 18:42:42,332 INFO Initializing ExecutorService
+
+2020-11-16 18:42:43,864 INFO Exposing 22 endpoint(s) beneath base path '/actuator'
+
+2020-11-16 18:42:43,968 INFO Starting ProtocolHandler ["http-nio-9901"]
+
+2020-11-16 18:42:43,976 INFO Using a shared selector for servlet write/read
+
+2020-11-16 18:42:43,995 INFO Tomcat started on port(s): 9901 (http) with context path ''
+
+2020-11-16 18:43:33,004 INFO Starting without optional epoll library
+
+2020-11-16 18:43:33,006 INFO Starting without optional kqueue library
+
+2020-11-16 18:43:34,602 INFO nacos registry, provider 192.168.10.126:9901 register finished
+
+2020-11-16 18:43:34,605 INFO Started DemoProviderApplication in 61.185 seconds (JVM running for 63.493)
+
+2020-11-16 18:43:35,573 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-11-16 18:43:35,574 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-11-16 18:43:35,583 INFO Completed initialization in 8 ms
+
+2020-11-16 18:43:35,718 WARN Failed to register application as Application(name=provider, managementUrl=http://lvmoney:9901/actuator, healthUrl=http://lvmoney:9901/actuator/health, serviceUrl=http://lvmoney:9901/) at spring-boot-admin ([http://localhost:8080/instances]): I/O error on POST request for "http://localhost:8080/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+
+2020-11-16 18:43:48,613 INFO Shutting down ExecutorService
+
+2020-11-16 18:43:48,613 INFO De-registering from Nacos Server now...
+
+2020-11-16 18:43:48,626 INFO De-registration finished.
+
