@@ -166,11 +166,5 @@ public class FileUtils {
         }
     }
 
-    public static void main(String args[]) {
-        String filePath = "E:\\CloudMusic\\Famishin - 恋ひ恋ふ縁＜Piano Version＞.mp3";
-        String fileType = FileUtils.getFileType(filePath);
-        System.out.println(fileType);
-    }
-
 
 }

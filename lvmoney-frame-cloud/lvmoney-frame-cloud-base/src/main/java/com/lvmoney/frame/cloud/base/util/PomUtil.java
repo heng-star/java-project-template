@@ -45,16 +45,6 @@ public class PomUtil {
     private static final String NAMESPACE = "namespace";
 
     /**
-     * 对应pom中的parent.version
-     */
-    private static final String parentVersion = "parent.version";
-
-    /**
-     * 对应pom中的project.version
-     */
-    private static final String projectVersion = "project.version";
-
-    /**
      * 为了pom和代码中docker镜像相关的配置统一，通过工具从pom文件获得docker的配置
      *
      * @throws

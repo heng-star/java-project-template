@@ -30,14 +30,14 @@ public class SnowflakeIdFactoryUtil {
      * 成员类，SnowFlakeUtil的实例对象的保存域
      */
     private static class IdGenHolder {
-        private static final SnowflakeIdFactoryUtil instance = new SnowflakeIdFactoryUtil();
+        private static final SnowflakeIdFactoryUtil INSTANCE = new SnowflakeIdFactoryUtil();
     }
 
     /**
      * 外部调用获取SnowFlakeUtil的实例对象，确保不可变
      */
     public static SnowflakeIdFactoryUtil get() {
-        return IdGenHolder.instance;
+        return IdGenHolder.INSTANCE;
     }
 
     /**

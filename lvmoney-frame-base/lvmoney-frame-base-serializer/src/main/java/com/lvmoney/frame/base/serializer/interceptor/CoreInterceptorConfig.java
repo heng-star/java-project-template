@@ -1,6 +1,6 @@
 package com.lvmoney.frame.base.serializer.interceptor;/**
  * 描述:
- * 包名:com.lvmoney.demo.file.Interceptor
+ * 包名:com.lvmoney.demo.file.interceptor
  * 版本信息: 版本1.0
  * 日期:2020/8/19
  * Copyright XXXXXX科技有限公司
