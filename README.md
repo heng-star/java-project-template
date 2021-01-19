@@ -171,8 +171,7 @@ lvmoney
 
 我们的架构
 
-![以istio为核心](https://images.gitee.com/uploads/images/2020/0724/094538_3207dbea_107773.png "frame-lvmoney.png")
-
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0119/114349_87aab8df_107773.png "微信截图_20210119114013.png")
 roadmap
 
 ![roadmap](https://images.gitee.com/uploads/images/2020/0724/095048_f4de7e47_107773.png "roadmap.png")  
