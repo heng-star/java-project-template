@@ -14,7 +14,7 @@
 
 #### 使用方式
 
-通过maven依赖的方式引用到项目模块即可。把lvmoney-frame-parent作为所有项目的parent，子项目一般都要引入lvmoney-frame-core，其他模块根据系统需要引入，详见各个module的readme.md。demo 可见 lvmoney-frame-demo
+通过maven依赖的方式引用到项目模块即可。框架通过lvmoney-frame-bom引入了所有依赖和版本，子项目无需把框架作为parent，只需要把lvmoney-frame-bom作为dependencyManagement即可。子项目一般都要引入lvmoney-frame-core，其他模块根据系统需要引入，详见各个module的readme.md。demo 可见 lvmoney-frame-demo。某服务作为rpc服务时，需要自定义api发布到nexus中，那么服务提供方需要引入依赖实现接口功能，服务使用方引入依赖通过feign访问即可
 
 #### 服务支持
 
