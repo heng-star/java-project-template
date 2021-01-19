@@ -121,8 +121,8 @@ nacos
 sentinel  
 ipfs  
 docker  
-k8s1.16.0  
-istio1.3.0  
+k8s1.18.0  
+istio1.8.0  
 flink  
 hadoop  
 shiro  
