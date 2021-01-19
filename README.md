@@ -185,6 +185,9 @@ roadmap
 我们内部使用的业务中台和数据中台双中台战略，具体ppt可以联系lvmoney
 
 
+部分博客文档:https://blog.csdn.net/weiranaixi
+
+
 
 
 
