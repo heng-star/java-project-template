@@ -1,6 +1,6 @@
 package com.lvmoney.frame.base.rm.constant;/**
  * 描述:
- * 包名:com.chdriver.frame.base.rm.constant
+ * 包名:com.lvmoney.frame.base.rm.constant
  * 版本信息: 版本1.0
  * 日期:2021/4/20
  * Copyright XXXXXX科技有限公司

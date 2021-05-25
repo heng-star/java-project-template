@@ -54,7 +54,7 @@ public class FrameExceptionHandlerAdvice {
      *
      * @param e:
      * @throws
-     * @return: com.chdriver.frame.core.api.ApiResult<?>
+     * @return: com.lvmoney.frame.core.api.ApiResult<?>
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2019/12/2 15:54
      */
@@ -98,7 +98,7 @@ public class FrameExceptionHandlerAdvice {
      * @param res:
      * @param e:
      * @throws
-     * @return: com.chdriver.frame.core.api.ApiResult<?>
+     * @return: com.lvmoney.frame.core.api.ApiResult<?>
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2019/12/2 15:54
      */
@@ -132,7 +132,7 @@ public class FrameExceptionHandlerAdvice {
      * @param res:
      * @param e:
      * @throws
-     * @return: com.chdriver.frame.core.api.ApiResult<?>
+     * @return: com.lvmoney.frame.core.api.ApiResult<?>
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2019/12/2 15:55
      */
@@ -155,7 +155,7 @@ public class FrameExceptionHandlerAdvice {
      * @param res:
      * @param e:
      * @throws
-     * @return: com.chdriver.frame.core.api.ApiResult<?>
+     * @return: com.lvmoney.frame.core.api.ApiResult<?>
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2019/12/2 15:55
      */
