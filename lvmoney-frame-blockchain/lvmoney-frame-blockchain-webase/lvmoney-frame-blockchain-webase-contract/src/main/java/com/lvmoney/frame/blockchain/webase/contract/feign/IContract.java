@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PostMapping;
  * @version:v1.0 2021/6/19 10:05
  */
 @FeignClient(name = "${webase.server.name}", url = "${webase.server.url}", configuration = {FeignConfig.class})
-public interface IAbiInfo {
+public interface IContract {
     /**
      * 根据abi内容判断合约是否已部署，未部署则生成对应abi文件
      *
@@ -30,7 +30,7 @@ public interface IAbiInfo {
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2021/6/19 11:45
      */
-    @PostMapping(value = ContractConstant.URI_ABI_INFO)
+    @PostMapping(value = ContractConstant.URI_CONTRACT_ABI_INFO)
     ApiResult<Void> abiInfo(AbiInfoAo abiInfoAo);
 
 }

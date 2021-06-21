@@ -16,5 +16,5 @@ public class ContractConstant {
     /**
      * 发送abi接口
      */
-    public static final String URI_ABI_INFO = "contract/abiInfo";
+    public static final String URI_CONTRACT_ABI_INFO = "contract/abiInfo";
 }

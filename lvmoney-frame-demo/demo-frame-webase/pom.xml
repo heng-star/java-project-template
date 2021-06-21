@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.lvmoney.frame</groupId>
-            <artifactId>lvmoney-frame-blockchain-webase-contract</artifactId>
+            <artifactId>lvmoney-frame-blockchain-webase-trans</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

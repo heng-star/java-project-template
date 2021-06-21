@@ -8,9 +8,10 @@ package com.lvmoney.demo.webase.controller;/**
 
 
 import com.lvmoney.frame.base.core.api.ApiResult;
-import com.lvmoney.frame.blockchain.webase.contract.ao.AbiInfoAo;
-import com.lvmoney.frame.blockchain.webase.contract.constant.ContractConstant;
-import com.lvmoney.frame.blockchain.webase.contract.feign.IAbiInfo;
+import com.lvmoney.frame.blockchain.common.util.BlockchainUtil;
+import com.lvmoney.frame.blockchain.webase.trans.ao.QueryTransactionAo;
+import com.lvmoney.frame.blockchain.webase.trans.constant.TransConstant;
+import com.lvmoney.frame.blockchain.webase.trans.feign.ITrans;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,11 +25,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WeBaseController {
     @Autowired
-    IAbiInfo iAbiInfo;
+    ITrans iTrans;
 
-    @PostMapping(value = ContractConstant.URI_ABI_INFO)
-    public ApiResult<String> abiInfo(@RequestBody AbiInfoAo abiInfoAo) {
-        iAbiInfo.abiInfo(abiInfoAo);
-        return ApiResult.success("success");
+    @PostMapping(value = TransConstant.URI_TRANS_QUERY_TRANSACTION)
+    public ApiResult<String> abiInfo(@RequestBody QueryTransactionAo queryTransactionAo) {
+        return ApiResult.success(iTrans.transQueryTransaction(queryTransactionAo));
+    }
+
+    public static void main(String[] args) {
+        String str="[{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"n\",\"type\":\"string\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}]";
+        System.out.println(BlockchainUtil.quotationMarksReplace(str));
     }
 }
