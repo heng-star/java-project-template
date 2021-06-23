@@ -58,5 +58,14 @@ contract:
 
 webase:
   server:
-    name: webase
-    url: 192.168.0.34:5002/WeBASE-Front
+    front:
+      name: webase
+      url: 192.168.0.34:5002/WeBASE-Front
+feign:
+  sentinel:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000  # 指定Feign连接提供者的超时时限
+        readTimeout: 5000    # 指定Feign从请求到获取提供者响应的超时时限

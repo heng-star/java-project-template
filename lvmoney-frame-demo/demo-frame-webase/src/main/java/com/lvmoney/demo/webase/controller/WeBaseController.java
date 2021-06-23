@@ -7,15 +7,18 @@ package com.lvmoney.demo.webase.controller;/**
  */
 
 
+import com.chdriver.frame.blockchain.webase.front.api.ao.PrivateKeyAo;
+import com.chdriver.frame.blockchain.webase.front.api.constant.FrontConstant;
+import com.chdriver.frame.blockchain.webase.front.api.vo.PrivateKeyVo;
+import com.chdriver.frame.blockchain.webase.front.api.vo.Web3TransactionVo;
+import com.lvmoney.demo.webase.feign.IFrontClient;
 import com.lvmoney.frame.base.core.api.ApiResult;
-import com.lvmoney.frame.blockchain.common.util.BlockchainUtil;
-import com.lvmoney.frame.blockchain.webase.trans.ao.QueryTransactionAo;
-import com.lvmoney.frame.blockchain.webase.trans.constant.TransConstant;
-import com.lvmoney.frame.blockchain.webase.trans.feign.ITrans;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @describe：
@@ -25,15 +28,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WeBaseController {
     @Autowired
-    ITrans iTrans;
+    IFrontClient iFrontClient;
 
-    @PostMapping(value = TransConstant.URI_TRANS_QUERY_TRANSACTION)
-    public ApiResult<String> abiInfo(@RequestBody QueryTransactionAo queryTransactionAo) {
-        return ApiResult.success(iTrans.transQueryTransaction(queryTransactionAo));
+
+    @PostMapping(value = FrontConstant.URL_FRONT_WEB3_TRANSACTION)
+    public ApiResult abiInfo(@PathVariable("groupId") int groupId, @PathVariable("transHash") String transHash) {
+        Web3TransactionVo re = iFrontClient.web3Transaction(groupId, transHash);
+        return ApiResult.success(re);
     }
 
-    public static void main(String[] args) {
-        String str="[{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"n\",\"type\":\"string\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}]";
-        System.out.println(BlockchainUtil.quotationMarksReplace(str));
+    @GetMapping(value = FrontConstant.URL_FRONT_PRIVATE_KEY)
+    public ApiResult privateKey(PrivateKeyAo privateKeyAo) {
+        RestTemplate restTemplate = new RestTemplate();
+//        Object str = restTemplate.getForObject("http://192.168.0.34:5002/WeBASE-Front/privateKey?type=2&userName=xiangdaoquan3&appId=chdriver&signUserId=xiangdaoquan3&returnPrivateKey=true", String.class);
+        Object re = iFrontClient.privateKey(privateKeyAo.getAppId(),privateKeyAo.getSignUserId(),privateKeyAo.getType(),privateKeyAo.getUserName(),privateKeyAo.getReturnPrivateKey());
+        return ApiResult.success(re);
     }
 }

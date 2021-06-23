@@ -12,20 +12,9 @@
     <artifactId>lvmoney-frame-blockchain-webase</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lvmoney-frame-blockchain-webase-contract</module>
         <module>lvmoney-frame-blockchain-webase-common</module>
-        <module>lvmoney-frame-blockchain-webase-secret</module>
-        <module>lvmoney-frame-blockchain-webase-web3</module>
-        <module>lvmoney-frame-blockchain-webase-performance</module>
-        <module>lvmoney-frame-blockchain-webase-trans</module>
-        <module>lvmoney-frame-blockchain-webase-manage</module>
-        <module>lvmoney-frame-blockchain-webase-event</module>
-        <module>lvmoney-frame-blockchain-webase-abimanage</module>
-        <module>lvmoney-frame-blockchain-webase-charging</module>
-        <module>lvmoney-frame-blockchain-webase-other</module>
-        <module>lvmoney-frame-blockchain-webase-util</module>
-        <module>lvmoney-frame-blockchain-webase-contractstore</module>
-        <module>lvmoney-frame-blockchain-webase-certificate</module>
+        <module>lvmoney-frame-blockchain-webase-front</module>
+        <module>lvmoney-frame-blockchain-webase-sign</module>
     </modules>
 
 
