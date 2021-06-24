@@ -28,12 +28,13 @@ public interface ShiroRedisService {
      * 获得用户的shiro数据
      *
      * @param username: 用户名
+     * @param sysId:    系统编号
      * @throws
      * @return: ShiroDataVo
      * @author: lvmoney /四川******科技有限公司
      * @date: 2019/9/9 21:06
      */
-    ShiroDataVo getShiroData(String username);
+    ShiroDataVo getShiroData(String username, String sysId);
 
 
     /**
@@ -46,8 +47,6 @@ public interface ShiroRedisService {
      * @date: 2019/9/9 21:07
      */
     void saveShiroData(ShiroDataRo shiroDataRo);
-
-
 
 
     /**
@@ -65,13 +64,13 @@ public interface ShiroRedisService {
      * 通过uri获得能被哪些角色和权限访问
      *
      * @param uri:
+     * @param sysId: 系统编号
      * @throws
      * @return: ShiroUriVo
      * @author: lvmoney /四川******科技有限公司
      * @date: 2019/9/9 21:08
      */
-    ShiroUriVo getShiroUriData(String uri);
-
+    ShiroUriVo getShiroUriData(String uri, String sysId);
 
 
 }

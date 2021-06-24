@@ -102,7 +102,7 @@ public class FrameShiroFilter extends FormAuthenticationFilter {
                 requestUrl = requestUrl + BaseConstant.CONNECTOR_UNDERLINE + requestType;
             }
             //考虑到到多系统需要用sysId做如下处理
-            ShiroUriVo shiroUriVo = shiroRedisService.getShiroUriData(requestUrl);
+            ShiroUriVo shiroUriVo = shiroRedisService.getShiroUriData(requestUrl, sysId);
             if (shiroUriVo != null) {
                 List<String> roleList = new ArrayList<>(shiroUriVo.getRole());
                 boolean[] roles = subject.hasRoles(roleList);

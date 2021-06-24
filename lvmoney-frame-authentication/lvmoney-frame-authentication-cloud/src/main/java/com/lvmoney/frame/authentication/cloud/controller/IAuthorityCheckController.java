@@ -92,7 +92,7 @@ public class IAuthorityCheckController implements IAuthorityCheck {
             if (servletPath.endsWith(ShiroConstant.SERVLET_END_WITH)) {
                 servletPath = servletPath.substring(0, servletPath.lastIndexOf(ShiroConstant.SERVLET_END_WITH));
             }
-            ShiroUriVo shiroUriVo = shiroRedisService.getShiroUriData(servletPath);
+            ShiroUriVo shiroUriVo = shiroRedisService.getShiroUriData(servletPath,userVo.getSysId());
             if (shiroUriVo != null) {
                 List<String> roleList = new ArrayList<>(shiroUriVo.getRole());
                 boolean[] roles = subject.hasRoles(roleList);

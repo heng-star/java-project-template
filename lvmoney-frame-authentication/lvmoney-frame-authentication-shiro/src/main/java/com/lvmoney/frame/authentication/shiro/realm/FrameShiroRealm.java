@@ -62,7 +62,8 @@ public class FrameShiroRealm extends AuthorizingRealm {
         if (principal instanceof UserVo) {
             UserVo userLogin = (UserVo) principal;
             String userName = userLogin.getUsername();
-            ShiroDataVo shiroDataVo = shiroRedisService.getShiroData(userName);
+            String sysId = userLogin.getSysId();
+            ShiroDataVo shiroDataVo = shiroRedisService.getShiroData(userName, sysId);
             if (shiroDataVo == null) {
                 throw new BusinessException(AuthorityException.Proxy.SHIRO_REDIS_NOT_EXIST);
             }

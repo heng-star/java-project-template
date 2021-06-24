@@ -62,7 +62,6 @@ public class ShiroRedisServiceImpl implements ShiroRedisService {
     }
 
 
-
     @Override
     public void saveShiroUriData(ShiroUriRo shiroUriRo) {
         Map<String, String> map = new HashMap<>(BaseConstant.MAP_DEFAULT_SIZE);
@@ -71,16 +70,16 @@ public class ShiroRedisServiceImpl implements ShiroRedisService {
     }
 
     @Override
-    public ShiroUriVo getShiroUriData(String uri) {
-        String str = (String) baseRedisService.getByMapKey(ShiroConstant.SYS_SHIRO_URI, uri);
+    public ShiroUriVo getShiroUriData(String uri, String sysId) {
+        String str = (String) baseRedisService.getByMapKey(ShiroConstant.SYS_SHIRO_URI, sysId + BaseConstant.CONNECTOR_UNDERLINE + uri);
         ShiroUriVo result = JSONObject.parseObject(str, ShiroUriVo.class);
         return result;
     }
 
     @Override
-    public ShiroDataVo getShiroData(String username) {
+    public ShiroDataVo getShiroData(String username, String sysId) {
         ShiroDataVo result = new ShiroDataVo();
-        String shiroString = baseRedisService.getByKey(ShiroConstant.USER_SHIRO_RES + BaseConstant.CONNECTOR_UNDERLINE + username).toString();
+        String shiroString = baseRedisService.getByKey(ShiroConstant.USER_SHIRO_RES + BaseConstant.CONNECTOR_UNDERLINE + sysId + BaseConstant.CONNECTOR_UNDERLINE + username).toString();
         if (StringUtils.isBlank(shiroString)) {
             return null;
         }
