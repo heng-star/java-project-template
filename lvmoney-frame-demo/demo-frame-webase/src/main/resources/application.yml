@@ -59,8 +59,11 @@ contract:
 webase:
   server:
     front:
-      name: webase
+      name: webase-front
       url: 192.168.0.34:5002/WeBASE-Front
+    sign:
+      name: webase-sign
+      url: 192.168.0.23:5004/WeBASE-Sign
 feign:
   sentinel:
     enabled: true
