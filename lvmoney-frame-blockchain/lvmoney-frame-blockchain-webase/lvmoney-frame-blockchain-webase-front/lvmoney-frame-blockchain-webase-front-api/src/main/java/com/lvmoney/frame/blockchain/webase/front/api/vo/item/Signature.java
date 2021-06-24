@@ -1,6 +1,6 @@
-package com.chdriver.frame.blockchain.webase.front.api.vo;/**
+package com.lvmoney.frame.blockchain.webase.front.api.vo.item;/**
  * 描述:
- * 包名:com.chdriver.frame.blockchain.webase.front.api.vo
+ * 包名:com.lvmoney.frame.blockchain.webase.front.api.vo
  * 版本信息: 版本1.0
  * 日期:2021/6/23
  * Copyright XXXXXX科技有限公司
@@ -40,4 +40,8 @@ public class Signature implements Serializable {
      *
      */
     private String signature;
+    /**
+     *
+     */
+    private String index;
 }

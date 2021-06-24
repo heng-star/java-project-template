@@ -7,7 +7,7 @@ package com.lvmoney.demo.webase.feign;/**
  */
 
 
-import com.chdriver.frame.blockchain.webase.front.api.surface.IFront;
+import com.lvmoney.frame.blockchain.webase.front.api.surface.IFront;
 import com.lvmoney.frame.dispatch.feign.config.DisableHystrix;
 import com.lvmoney.frame.dispatch.feign.config.FeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;

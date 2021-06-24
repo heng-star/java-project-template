@@ -1,6 +1,6 @@
 package com.lvmoney.demo.webase.application;/**
  * 描述:
- * 包名:com.chdriver.demo.customer.application
+ * 包名:com.lvmoney.demo.customer.application
  * 版本信息: 版本1.0
  * 日期:2020/3/5
  * Copyright XXXXXX科技有限公司
