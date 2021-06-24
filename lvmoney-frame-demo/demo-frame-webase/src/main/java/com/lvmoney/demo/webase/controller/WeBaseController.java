@@ -8,6 +8,7 @@ package com.lvmoney.demo.webase.controller;/**
 
 
 import com.lvmoney.demo.webase.feign.ISignClient;
+import com.lvmoney.demo.webase.feign.ITransClient;
 import com.lvmoney.frame.blockchain.webase.front.api.ao.DecodeAo;
 import com.lvmoney.frame.blockchain.webase.front.api.ao.HandleWithSignAo;
 import com.lvmoney.frame.blockchain.webase.front.api.ao.PrivateKeyAo;
@@ -21,6 +22,9 @@ import com.lvmoney.frame.blockchain.webase.sign.api.ao.UserInfoAo;
 import com.lvmoney.frame.blockchain.webase.sign.api.constant.SignConstant;
 import com.lvmoney.frame.blockchain.webase.sign.api.vo.SignResult;
 import com.lvmoney.frame.blockchain.webase.sign.api.vo.UserInfoVo;
+import com.lvmoney.frame.blockchain.webase.trans.ao.CallAo;
+import com.lvmoney.frame.blockchain.webase.trans.constant.TransConstant;
+import com.lvmoney.frame.blockchain.webase.trans.vo.TransResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,6 +40,9 @@ public class WeBaseController {
 
     @Autowired
     ISignClient iSignClient;
+
+    @Autowired
+    ITransClient iTransClient;
 
 
     @PostMapping(value = FrontConstant.URL_FRONT_WEB3_TRANSACTION)
@@ -72,6 +79,12 @@ public class WeBaseController {
     @GetMapping(value = SignConstant.URL_SIGN_USER_USER_INFO)
     public ApiResult userInfo(@PathVariable("signUserId") String signUserId, UserInfoAo userInfoAo) {
         SignResult<UserInfoVo> re = iSignClient.userInfo(signUserId, userInfoAo.getReturnPrivateKey());
+        return ApiResult.success(re.getData());
+    }
+
+    @PostMapping(value = TransConstant.URL_TRANS_CALL)
+    public ApiResult  transCall(@RequestBody CallAo callAo) {
+        TransResult re = iTransClient.transCall(callAo);
         return ApiResult.success(re.getData());
     }
 }

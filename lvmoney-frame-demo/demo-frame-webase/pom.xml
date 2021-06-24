@@ -23,6 +23,11 @@
         </dependency>
         <dependency>
             <groupId>com.lvmoney.frame</groupId>
+            <artifactId>lvmoney-frame-blockchain-webase-trans-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lvmoney.frame</groupId>
             <artifactId>lvmoney-frame-dispatch-feign</artifactId>
             <version>${project.parent.version}</version>
         </dependency>

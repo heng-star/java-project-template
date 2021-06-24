@@ -64,6 +64,9 @@ webase:
     sign:
       name: webase-sign
       url: 192.168.0.23:5004/WeBASE-Sign
+    trans:
+      name: webase-transaction
+      url: 192.168.0.44:5003/WeBASE-Transaction
 feign:
   sentinel:
     enabled: true
