@@ -28,13 +28,12 @@ public interface ShiroRedisService {
      * 获得用户的shiro数据
      *
      * @param username: 用户名
-     * @param sysId:    系统编号
      * @throws
      * @return: ShiroDataVo
      * @author: lvmoney /四川******科技有限公司
      * @date: 2019/9/9 21:06
      */
-    ShiroDataVo getShiroData(String username, String sysId);
+    ShiroDataVo getShiroData(String username);
 
 
     /**

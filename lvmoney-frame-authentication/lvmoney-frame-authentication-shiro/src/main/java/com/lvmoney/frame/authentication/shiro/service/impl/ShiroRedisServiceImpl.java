@@ -77,9 +77,9 @@ public class ShiroRedisServiceImpl implements ShiroRedisService {
     }
 
     @Override
-    public ShiroDataVo getShiroData(String username, String sysId) {
+    public ShiroDataVo getShiroData(String username) {
         ShiroDataVo result = new ShiroDataVo();
-        String shiroString = baseRedisService.getByKey(ShiroConstant.USER_SHIRO_RES + BaseConstant.CONNECTOR_UNDERLINE + sysId + BaseConstant.CONNECTOR_UNDERLINE + username).toString();
+        String shiroString = baseRedisService.getByKey(ShiroConstant.USER_SHIRO_RES + BaseConstant.CONNECTOR_UNDERLINE + username).toString();
         if (StringUtils.isBlank(shiroString)) {
             return null;
         }
