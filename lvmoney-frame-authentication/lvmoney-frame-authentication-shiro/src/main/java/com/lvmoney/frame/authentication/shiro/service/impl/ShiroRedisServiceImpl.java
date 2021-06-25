@@ -70,8 +70,8 @@ public class ShiroRedisServiceImpl implements ShiroRedisService {
     }
 
     @Override
-    public ShiroUriVo getShiroUriData(String uri, String sysId) {
-        String str = (String) baseRedisService.getByMapKey(ShiroConstant.SYS_SHIRO_URI, sysId + BaseConstant.CONNECTOR_UNDERLINE + uri);
+    public ShiroUriVo getShiroUriData(String uri) {
+        String str = (String) baseRedisService.getByMapKey(ShiroConstant.SYS_SHIRO_URI, uri);
         ShiroUriVo result = JSONObject.parseObject(str, ShiroUriVo.class);
         return result;
     }

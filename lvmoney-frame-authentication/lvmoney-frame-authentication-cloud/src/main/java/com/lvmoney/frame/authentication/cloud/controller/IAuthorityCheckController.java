@@ -19,6 +19,7 @@ import com.lvmoney.frame.authentication.shiro.service.ShiroRedisService;
 import com.lvmoney.frame.authentication.shiro.vo.ShiroUriVo;
 import com.lvmoney.frame.authentication.util.util.JwtUtil;
 import com.lvmoney.frame.base.core.api.ApiResult;
+import com.lvmoney.frame.base.core.constant.BaseConstant;
 import com.lvmoney.frame.core.vo.UserVo;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -92,7 +93,8 @@ public class IAuthorityCheckController implements IAuthorityCheck {
             if (servletPath.endsWith(ShiroConstant.SERVLET_END_WITH)) {
                 servletPath = servletPath.substring(0, servletPath.lastIndexOf(ShiroConstant.SERVLET_END_WITH));
             }
-            ShiroUriVo shiroUriVo = shiroRedisService.getShiroUriData(servletPath,userVo.getSysId());
+            servletPath = userVo.getSysId() + BaseConstant.CONNECTOR_UNDERLINE + servletPath;
+            ShiroUriVo shiroUriVo = shiroRedisService.getShiroUriData(servletPath);
             if (shiroUriVo != null) {
                 List<String> roleList = new ArrayList<>(shiroUriVo.getRole());
                 boolean[] roles = subject.hasRoles(roleList);
