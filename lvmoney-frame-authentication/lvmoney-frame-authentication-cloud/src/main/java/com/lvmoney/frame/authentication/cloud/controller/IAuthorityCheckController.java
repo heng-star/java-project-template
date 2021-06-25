@@ -84,8 +84,11 @@ public class IAuthorityCheckController implements IAuthorityCheck {
         if (userVo == null) {
             return ApiResult.success(new ShiroCheckVo(false));
         }
-        String username = userVo.getUsername();
+        String userId = userVo.getUserId();
         String password = userVo.getPassword();
+        String sysId = userVo.getSysId();
+        //考虑到多个系统的权限角色，需要区分不同的用户和系统，做如下处理
+        String username = sysId + BaseConstant.CONNECTOR_UNDERLINE + userId;
         try {
             UsernamePasswordToken shiroToken = new UsernamePasswordToken(username, password);
             Subject subject = SecurityUtils.getSubject();
