@@ -14,4 +14,8 @@ package com.lvmoney.frame.blockchain.webase.wallet.api.constant;/**
  * 2021/6/24 19:50  
  */
 public class WalletConstant {
+    /**
+     * 交易url
+     */
+    public static final String URL_FRONT_TRANS_HANDLE_WITH_SIGN = "trans/handleWithSign";
 }

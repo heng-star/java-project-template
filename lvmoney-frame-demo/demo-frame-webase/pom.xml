@@ -37,6 +37,12 @@
             <artifactId>lvmoney-frame-ops-fuse-sentinel-client</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.lvmoney.frame</groupId>
+            <artifactId>lvmoney-frame-blockchain-webase-wallet-apiserver</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
     </dependencies>
 
 </project>

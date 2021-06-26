@@ -47,6 +47,7 @@
         <module>lvmoney-frame-docking</module>
         <module>lvmoney-frame-webservice</module>
         <module>lvmoney-frame-blockchain</module>
+        <module>lvmoney-frame-prefix</module>
     </modules>
 
     <distributionManagement>

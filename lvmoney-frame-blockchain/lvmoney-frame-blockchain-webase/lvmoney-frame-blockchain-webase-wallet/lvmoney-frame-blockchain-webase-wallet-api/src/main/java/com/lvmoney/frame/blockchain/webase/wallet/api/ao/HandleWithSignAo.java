@@ -1,4 +1,4 @@
-package com.lvmoney.frame.blockchain.webase.front.api.ao;/**
+package com.lvmoney.frame.blockchain.webase.wallet.api.ao;/**
  * 描述:
  * 包名:com.lvmoney.frame.blockchain.webase.front.api.ao
  * 版本信息: 版本1.0
@@ -8,7 +8,6 @@ package com.lvmoney.frame.blockchain.webase.front.api.ao;/**
 
 
 import com.alibaba.fastjson.JSONArray;
-import com.lvmoney.frame.blockchain.webase.front.api.ao.item.Abi;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -77,7 +77,7 @@ public interface IFront {
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2021/6/23 20:48
      */
-    @GetMapping(value = FrontConstant.URL_FRONT_TRANS_HANDLE_WITH_SIGN)
+    @PostMapping(value = FrontConstant.URL_FRONT_TRANS_HANDLE_WITH_SIGN)
     HandleWithSignVo handleWithSign(@RequestBody HandleWithSignAo handleWithSignAo);
 
     /**

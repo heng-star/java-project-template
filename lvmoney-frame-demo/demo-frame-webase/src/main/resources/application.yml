@@ -29,7 +29,7 @@ operating:
   internal: internal
 swagger:
   base:
-    package: com.lvmoney.demo.webase.controller
+    package: com.lvmoney
   contact:
     email: author@chdriver.com
     name: author
@@ -67,6 +67,9 @@ webase:
     trans:
       name: webase-transaction
       url: 192.168.0.44:5003/WeBASE-Transaction
+    coin:
+      name: webase-coin
+      url: 192.168.0.34:5002/WeBASE-Front
 feign:
   sentinel:
     enabled: true
