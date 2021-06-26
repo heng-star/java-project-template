@@ -17,6 +17,7 @@
         <module>lvmoney-frame-blockchain-webase-sign</module>
         <module>lvmoney-frame-blockchain-webase-wallet</module>
         <module>lvmoney-frame-blockchain-webase-trans</module>
+        <module>lvmoney-frame-blockchain-webase-weidentity</module>
     </modules>
 
 
