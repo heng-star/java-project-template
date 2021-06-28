@@ -1,4 +1,4 @@
-package com.lvmoney.frame.blockchain.webase.front.api.vo;/**
+package com.lvmoney.frame.blockchain.webase.wallet.api.vo;/**
  * 描述:
  * 包名:com.lvmoney.frame.blockchain.webase.front.api.vo
  * 版本信息: 版本1.0
@@ -7,7 +7,7 @@ package com.lvmoney.frame.blockchain.webase.front.api.vo;/**
  */
 
 
-import com.lvmoney.frame.blockchain.webase.front.api.vo.item.Log;
+import com.lvmoney.frame.blockchain.webase.wallet.api.vo.item.Log;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,9 +17,8 @@ import java.util.List;
 
 /**
  * @describe：
- * @author: lvmoney/XXXXXX科技有限公司 
- * @version:v1.0
- * 2021/6/23 20:40  
+ * @author: lvmoney/XXXXXX科技有限公司
+ * @version:v1.0 2021/6/23 20:40
  */
 @Data
 @NoArgsConstructor

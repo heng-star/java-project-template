@@ -33,8 +33,16 @@ public class Wallet implements Serializable {
      */
     private String signUserId;
     /**
-     * 方法参数
+     * 是否使用cns调用
      */
-    private List<String> funcParam;
+    private Boolean useCns;
+    /**
+     * cns名称
+     */
+    private String cnsName;
+    /**
+     * cns版本
+     */
+    private String version;
 
 }
