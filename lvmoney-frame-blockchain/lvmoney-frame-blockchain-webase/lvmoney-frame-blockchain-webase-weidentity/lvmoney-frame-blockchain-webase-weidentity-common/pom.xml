@@ -16,6 +16,17 @@
             <artifactId>lvmoney-frame-blockchain-webase-common</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.fisco-bcos</groupId>
+            <artifactId>web3sdk</artifactId>
+            <version>2.6.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.webank</groupId>
+            <artifactId>weid-java-sdk</artifactId>
+            <version>1.8.2</version>
+        </dependency>
     </dependencies>
 
 
