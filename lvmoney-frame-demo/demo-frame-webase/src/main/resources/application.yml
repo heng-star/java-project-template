@@ -5,6 +5,10 @@ server:
 spring:
   application:
     name: customer
+  redis:
+    database: 9
+    port: 6379
+    host: 192.168.0.21
 istio:
   docker:
     image:
@@ -70,6 +74,9 @@ webase:
     coin:
       name: webase-coin
       url: 192.168.0.34:5002/WeBASE-Front
+    weid:
+      name: webase-weid
+      url: 192.168.0.45:6001/weid
 feign:
   sentinel:
     enabled: true

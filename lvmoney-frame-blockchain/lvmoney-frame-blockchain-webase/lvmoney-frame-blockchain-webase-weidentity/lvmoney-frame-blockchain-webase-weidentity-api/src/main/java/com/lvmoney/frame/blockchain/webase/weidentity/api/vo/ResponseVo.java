@@ -1,4 +1,4 @@
-package com.lvmoney.frame.blockchain.webase.weidentity.common.api;/**
+package com.lvmoney.frame.blockchain.webase.weidentity.api.vo;/**
  * 描述:
  * 包名:com.lvmoney.frame.blockchain.webase.weidentity.common.api
  * 版本信息: 版本1.0

@@ -5,13 +5,10 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.*;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.github.fge.jackson.JsonLoader;
+import com.lvmoney.frame.base.core.constant.BaseConstant;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
@@ -43,33 +40,24 @@ public class JsonUtil {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
+    private static final ObjectWriter OBJECT_WRITER;
+    private static final ObjectReader OBJECT_READER;
+
     static {
+        // sort by letter
         OBJECT_MAPPER.configure(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY, true);
+        // when map is serialization, sort by key
         OBJECT_MAPPER.configure(SerializationFeature.ORDER_MAP_ENTRIES_BY_KEYS, true);
+        // ignore mismatched fields
         OBJECT_MAPPER.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        OBJECT_MAPPER.enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
+        // use field for serialize and deSerialize
         OBJECT_MAPPER.setVisibility(PropertyAccessor.SETTER, JsonAutoDetect.Visibility.NONE);
         OBJECT_MAPPER.setVisibility(PropertyAccessor.GETTER, JsonAutoDetect.Visibility.NONE);
         OBJECT_MAPPER.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+        OBJECT_WRITER = OBJECT_MAPPER.writer().withDefaultPrettyPrinter();
+        OBJECT_READER = OBJECT_MAPPER.reader();
     }
 
-    /**
-     * json 转 JsonNode
-     *
-     * @param jsonString:
-     * @throws
-     * @return: com.fasterxml.jackson.databind.JsonNode
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:07
-     */
-    public static JsonNode loadJsonObject(String jsonString) {
-        try {
-            return JsonLoader.fromString(jsonString);
-        } catch (IOException e) {
-            LOGGER.error("json 转 JsonNode 报错:{}", e);
-            return null;
-        }
-    }
 
     /**
      * 对象序列化
@@ -122,65 +110,6 @@ public class JsonUtil {
         return result;
     }
 
-    /**
-     * 是不是json串
-     *
-     * @param json:
-     * @throws
-     * @return: boolean
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:09
-     */
-    public static boolean isValidFromToJson(String json) {
-        if (StringUtils.isEmpty(json)) {
-            LOGGER.error("input json param is null.");
-            return false;
-        } else {
-            JsonNode jsonObject = null;
-
-            jsonObject = loadJsonObject(json);
-
-            return jsonObject.has("$from");
-        }
-    }
-
-    /**
-     * 添加tag 给json
-     *
-     * @param json:
-     * @throws
-     * @return: java.lang.String
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:10
-     */
-    public static String addTagFromToJson(String json) {
-        JsonNode jsonObject;
-        jsonObject = loadJsonObject(json);
-        if (!jsonObject.has("$from")) {
-            ((ObjectNode) jsonObject).put("$from", "toJson");
-        }
-
-        return jsonObject.toString();
-    }
-
-    /**
-     * 删除json串的tag
-     *
-     * @param json:
-     * @throws
-     * @return: java.lang.String
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:10
-     */
-    public static String removeTagFromToJson(String json) {
-        JsonNode jsonObject;
-        jsonObject = loadJsonObject(json);
-        if (jsonObject.has("$from")) {
-            ((ObjectNode) jsonObject).remove("$from");
-        }
-
-        return jsonObject.toString();
-    }
 
     /**
      * list 转 list<BitInteger>
@@ -264,38 +193,6 @@ public class JsonUtil {
         return (T) clonedObj;
     }
 
-    /**
-     * 反序列化
-     *
-     * @param json:
-     * @param clazz:
-     * @throws
-     * @return: T
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:12
-     */
-    public static <T> T deserialize(String json, Class<T> clazz) {
-        Object object = null;
-
-        try {
-            if (isValidFromToJson(json)) {
-                LOGGER.error("this jsonString is converted by toJson(), please use fromJson() to deserialize it");
-                return null;
-            } else {
-                object = OBJECT_MAPPER.readValue(json, TypeFactory.rawClass(clazz));
-                return (T) object;
-            }
-        } catch (JsonParseException var4) {
-            LOGGER.error("JsonParseException when deserialize json to object", var4);
-            return null;
-        } catch (JsonMappingException var5) {
-            LOGGER.error("JsonMappingException when deserialize json to object", var5);
-            return null;
-        } catch (IOException var6) {
-            LOGGER.error("IOException when deserialize json to object", var6);
-            return null;
-        }
-    }
 
     /**
      * json 转 list
@@ -326,60 +223,6 @@ public class JsonUtil {
         return object;
     }
 
-    /**
-     * map 转 json
-     *
-     * @param map:
-     * @throws
-     * @return: java.lang.String
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:13
-     */
-    public static String mapToCompactJson(Map<String, Object> map) {
-        try {
-            return OBJECT_MAPPER.readTree(serialize(map)).toString();
-        } catch (JsonProcessingException e) {
-            LOGGER.error("map 转 json 报错:{}", e);
-            return null;
-        }
-    }
-
-    /**
-     * stringMap 转json
-     *
-     * @param map:
-     * @throws
-     * @return: java.lang.String
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:14
-     */
-    public static String stringMapToCompactJson(Map<String, String> map) {
-        try {
-            return OBJECT_MAPPER.readTree(serialize(map)).toString();
-        } catch (JsonProcessingException e) {
-            LOGGER.error("string map 转 json 报错:{}", e);
-            return null;
-        }
-    }
-
-    /**
-     * 实体转map
-     *
-     * @param object:
-     * @throws
-     * @return: java.util.Map<java.lang.String, java.lang.Object>
-     * @author: lvmoney /XXXXXX科技有限公司
-     * @date: 2021/6/30 9:14
-     */
-    public static Map<String, Object> objToMap(Object object) {
-        JsonNode jsonNode = null;
-        try {
-            jsonNode = OBJECT_MAPPER.readTree(serialize(object));
-        } catch (JsonProcessingException e) {
-            LOGGER.error("对象转map报错:{}", e);
-        }
-        return (HashMap) OBJECT_MAPPER.convertValue(jsonNode, HashMap.class);
-    }
 
     /**
      * map 转实体
@@ -395,6 +238,80 @@ public class JsonUtil {
         T pojo = OBJECT_MAPPER.convertValue(map, clazz);
         return pojo;
     }
+
+
+    public static String removeDoubleQuotes(String inputValue) {
+        return inputValue.replace("\"", BaseConstant.EMPTY);
+    }
+
+    public static Map<String, Object> convertJsonToSortedMap(String looseJson) {
+        try {
+            Map<String, Object> map = (Map<String, Object>) jsonStrToObj(
+                    new HashMap<String, Object>(), looseJson);
+            return new TreeMap<>(map);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+
+    /**
+     * Json String to Object.
+     *
+     * @param obj     Object
+     * @param jsonStr Json String
+     * @return Object
+     */
+    public static Object jsonStrToObj(Object obj, String jsonStr) {
+
+        try {
+            return OBJECT_READER.readValue(
+                    OBJECT_MAPPER.getFactory().createParser(jsonStr),
+                    obj.getClass());
+        } catch (IOException e) {
+            LOGGER.error("jsonStrToObj error:{}", e);
+            return null;
+        }
+    }
+
+    /**
+     * Object to Json String.
+     *
+     * @param obj Object
+     * @return String
+     */
+    public static String objToJsonStr(Object obj) {
+
+        try {
+            return OBJECT_WRITER.writeValueAsString(obj);
+        } catch (JsonProcessingException e) {
+            LOGGER.error("jsonStrToObj error:{}", e);
+            return null;
+        }
+    }
+
+    /**
+     * Convert a Map to compact Json output, with keys ordered. Use Jackson JsonNode toString() to ensure key order and compact output.
+     *
+     * @param map input map
+     * @return JsonString
+     */
+    public static String mapToCompactJson(Map<String, Object> map) throws Exception {
+        ObjectWriter objectWriter = OBJECT_MAPPER.writer();
+        return objectWriter.writeValueAsString(map);
+    }
+
+    /**
+     * Convert a POJO to Map.
+     *
+     * @param object POJO
+     * @return Map
+     */
+    public static Map<String, Object> objToMap(Object object) throws Exception {
+        JsonNode jsonNode = OBJECT_MAPPER.readTree(objToJsonStr(object));
+        return (HashMap<String, Object>) OBJECT_MAPPER.convertValue(jsonNode, HashMap.class);
+    }
+
 
 }
 

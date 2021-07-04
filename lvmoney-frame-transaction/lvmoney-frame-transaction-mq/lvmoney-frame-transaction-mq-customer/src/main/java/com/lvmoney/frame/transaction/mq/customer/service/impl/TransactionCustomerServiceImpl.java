@@ -16,7 +16,6 @@ import com.lvmoney.frame.cache.common.service.CacheCommonService;
 import com.lvmoney.frame.cache.lock.service.DistributedLockerService;
 import com.lvmoney.frame.core.util.SignUtil;
 import com.lvmoney.frame.core.vo.SignVo;
-import com.lvmoney.frame.mq.common.vo.MessageVo;
 import com.lvmoney.frame.transaction.common.constant.TransactionConstant;
 import com.lvmoney.frame.transaction.mq.common.enums.StatusEnum;
 import com.lvmoney.frame.transaction.mq.common.ro.TransactionRo;
@@ -27,7 +26,7 @@ import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
+import com.lvmoney.frame.mq.common.vo.MessageVo;
 import java.util.concurrent.TimeUnit;
 
 /**
