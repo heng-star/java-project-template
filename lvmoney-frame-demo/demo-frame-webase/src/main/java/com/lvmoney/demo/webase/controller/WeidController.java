@@ -7,10 +7,7 @@ package com.lvmoney.demo.webase.controller;/**
  */
 
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lvmoney.demo.webase.feign.IWeIdClient;
+import com.lvmoney.demo.webase.feign.IRestServiceClient;
 import com.lvmoney.frame.base.core.api.ApiResult;
 import com.lvmoney.frame.base.core.util.JsonUtil;
 import com.lvmoney.frame.blockchain.webase.weidentity.api.ao.EncodeAo;
@@ -22,7 +19,6 @@ import com.lvmoney.frame.blockchain.webase.weidentity.common.ro.WeidRo;
 import com.lvmoney.frame.blockchain.webase.weidentity.common.service.WeidService;
 import com.lvmoney.frame.blockchain.webase.weidentity.common.util.WeidUtil;
 import com.webank.weid.util.DataToolUtils;
-import org.apache.commons.lang3.StringUtils;
 import org.bouncycastle.util.encoders.Base64;
 import org.fisco.bcos.web3j.crypto.ECKeyPair;
 import org.fisco.bcos.web3j.crypto.Keys;
@@ -48,7 +44,7 @@ import java.security.NoSuchProviderException;
 @RestController
 public class WeidController {
     @Autowired
-    IWeIdClient iWeIdClient;
+    IRestServiceClient iWeIdClient;
     @Autowired
     WeidService weidService;
     private static final Logger LOGGER = LoggerFactory.getLogger(WeidController.class);

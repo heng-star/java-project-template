@@ -7,7 +7,7 @@ package com.lvmoney.demo.webase.feign;/**
  */
 
 
-import com.lvmoney.frame.blockchain.webase.weidentity.api.surface.IWeId;
+import com.lvmoney.frame.blockchain.webase.weidentity.api.surface.IRestService;
 import com.lvmoney.frame.dispatch.feign.config.DisableHystrix;
 import com.lvmoney.frame.dispatch.feign.config.FeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -19,5 +19,5 @@ import org.springframework.cloud.openfeign.FeignClient;
  * 2021/6/30 19:42
  */
 @FeignClient(name = "${webase.server.weid.name}", url = "${webase.server.weid.url}", configuration = {FeignConfig.class, DisableHystrix.class})
-public interface IWeIdClient extends IWeId {
+public interface IRestServiceClient extends IRestService {
 }

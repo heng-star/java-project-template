@@ -28,5 +28,55 @@ public class WeidConstant {
      */
     public static final String FUNC_CREATE_WE_ID = "createWeId";
 
+    /**
+     * 获取WeIdentity DID Document
+     */
+    public static final String FUNC_GET_WE_ID_DOCUMENT = "getWeIdDocument";
+
+    /**
+     * 创建WeIdentity DID（无参创建方式）
+     */
+    public static final String URL_WEID_API_INVOKE = "/api/invoke";
+
+    /**
+     * 创建AuthorityIssuer
+     */
+    public static final String FUNC_REGISTER_AUTHORITY_ISSUER = "registerAuthorityIssuer";
+
+    /**
+     * 查询AuthorityIssuer
+     */
+    public static final String FUNC_QUERY_AUTHORITY_ISSUER = "queryAuthorityIssuer";
+
+    /**
+     * 创建CPT
+     */
+    public static final String FUNC_REGISTER_CPT = "registerCpt";
+
+    /**
+     * 查询CPT
+     */
+    public static final String FUNC_QUERY_CPT = "queryCpt";
+
+    /**
+     * 创建Credential
+     */
+    public static final String FUNC_CREATE_CREDENTIAL = "createCredential";
+
+    /**
+     * 验证Credential
+     */
+    public static final String FUNC_VERIFY_CREDENTIAL = "verifyCredential";
+
+    /**
+     * 创建CredentialPojo
+     */
+    public static final String FUNC_CREATE_CREDENTIAL_POJO = "createCredentialPojo";
+
+    /**
+     * 验证CredentialPojo
+     */
+    public static final String FUNC_VERIFY_CREDENTIAL_POJO = "verifyCredentialPojo";
+
 
 }

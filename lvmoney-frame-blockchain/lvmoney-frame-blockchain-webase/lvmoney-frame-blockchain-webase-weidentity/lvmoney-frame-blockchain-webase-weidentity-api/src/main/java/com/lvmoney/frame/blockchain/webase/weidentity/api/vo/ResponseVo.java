@@ -35,4 +35,6 @@ public class ResponseVo<T> implements Serializable {
      * 错误信息
      */
     private String ErrorMessage;
+
+    private String loopback;
 }
