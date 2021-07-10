@@ -241,7 +241,7 @@ public class JsonUtil {
 
 
     public static String removeDoubleQuotes(String inputValue) {
-        return inputValue.replace("\"", BaseConstant.EMPTY);
+        return inputValue.replace(BaseConstant.DOUBLE_QUOTATION_MARKS_ESCAPE, BaseConstant.EMPTY);
     }
 
     public static Map<String, Object> convertJsonToSortedMap(String looseJson) {

@@ -9,6 +9,7 @@ package com.lvmoney.frame.oss.minio.service.impl;/**
 
 import com.lvmoney.frame.base.core.constant.BaseConstant;
 import com.lvmoney.frame.base.core.exception.BusinessException;
+import com.lvmoney.frame.oss.common.annotations.OssService;
 import com.lvmoney.frame.oss.common.exception.OssException;
 import com.lvmoney.frame.oss.common.vo.FileBaseOutVo;
 import com.lvmoney.frame.oss.common.vo.FileBaseVo;
@@ -32,6 +33,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.lvmoney.frame.oss.common.constant.OssType.OSS_MINIO;
 import static com.lvmoney.frame.oss.minio.constant.MinioConstant.MINIIO_PART_DEFAULT_SIZE;
 
 /**
@@ -39,7 +41,7 @@ import static com.lvmoney.frame.oss.minio.constant.MinioConstant.MINIIO_PART_DEF
  * @author: lvmoney/XXXXXX科技有限公司
  * @version:v1.0 2021/2/8 16:58
  */
-@Service
+@OssService(OSS_MINIO)
 public class BaseMinioServiceImpl extends BaseMinioService {
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseMinioServiceImpl.class);
     @Autowired
