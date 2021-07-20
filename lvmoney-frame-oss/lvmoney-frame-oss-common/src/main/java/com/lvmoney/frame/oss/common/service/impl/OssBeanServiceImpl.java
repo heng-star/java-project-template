@@ -1,6 +1,6 @@
 package com.lvmoney.frame.oss.common.service.impl;/**
  * 描述:
- * 包名:com.chdriver.frame.oss.common.service.impl
+ * 包名:com.lvmoney.frame.oss.common.service.impl
  * 版本信息: 版本1.0
  * 日期:2021/7/8
  * Copyright XXXXXX科技有限公司

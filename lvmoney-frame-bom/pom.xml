@@ -164,6 +164,8 @@
         <web3sdk.version>2.6.4</web3sdk.version>
         <weid-java-sdk.version>1.8.2</weid-java-sdk.version>
         <slf4j-api.version>1.7.16</slf4j-api.version>
+        <alipay-sdk-java.version>4.15.14.ALL</alipay-sdk-java.version>
+
     </properties>
 
     <dependencyManagement>
@@ -1252,6 +1254,12 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j-api.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alipay.sdk</groupId>
+                <artifactId>alipay-sdk-java</artifactId>
+                <version>${alipay-sdk-java.version}</version>
             </dependency>
 
         </dependencies>

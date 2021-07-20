@@ -30,7 +30,7 @@ public class OssType {
     public static final String OSS_HDFS = "hdfsOss";
 
     /**
-     * hdfsOss
+     * minioOss
      */
     public static final String OSS_MINIO = "minioOss";
     /**

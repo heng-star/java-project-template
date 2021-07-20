@@ -1,6 +1,6 @@
 package com.lvmoney.frame.oss.common.service;/**
  * 描述:
- * 包名:com.chdriver.platform.oss.common.service
+ * 包名:com.lvmoney.platform.oss.common.service
  * 版本信息: 版本1.0
  * 日期:2021/7/8
  * Copyright XXXXXX科技有限公司
@@ -18,7 +18,7 @@ public interface OssBeanService {
      *
      * @param type:
      * @throws
-     * @return: com.chdriver.frame.oss.common.service.OssService
+     * @return: com.lvmoney.frame.oss.common.service.OssService
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2021/7/8 11:34
      */

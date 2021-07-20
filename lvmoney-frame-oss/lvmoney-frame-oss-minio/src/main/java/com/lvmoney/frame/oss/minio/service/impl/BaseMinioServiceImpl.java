@@ -74,7 +74,7 @@ public class BaseMinioServiceImpl extends BaseMinioService {
             LOGGER.error("上传文件:{},报错:{}", filename, e);
             throw new BusinessException(OssException.Proxy.MINIIO_FILE_SAVE_ERROR);
         }
-        String fileId = minioProperties.getEndpoint() + ":" + minioProperties.getPort() + "/" + bucketName + "/" + filename;
+        String fileId = bucketName;
         FileBaseOutVo fileBaseOutVo = new FileBaseOutVo();
         fileBaseOutVo.setFileId(fileId);
         fileBaseOutVo.setFileName(filename);

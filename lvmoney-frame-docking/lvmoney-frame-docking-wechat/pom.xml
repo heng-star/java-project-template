@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lvmoney-frame-docking-weixin</artifactId>
+    <artifactId>lvmoney-frame-docking-wechat</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.lvmoney.frame</groupId>
