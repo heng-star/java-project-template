@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lvmoney-frame-docking</artifactId>
+    <artifactId>lvmoney-frame-pay</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lvmoney-frame-docking-common</module>
-        <module>lvmoney-frame-docking-wechat</module>
-        <module>lvmoney-frame-docking-alipay</module>
+        <module>lvmoney-frame-pay-common</module>
+        <module>lvmoney-frame-pay-wechat</module>
+        <module>lvmoney-frame-pay-alipay</module>
     </modules>
 
     <dependencyManagement>

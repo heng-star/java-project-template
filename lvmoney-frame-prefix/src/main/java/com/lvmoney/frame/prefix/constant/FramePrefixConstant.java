@@ -33,4 +33,5 @@ public class FramePrefixConstant {
      * webase weidentity 前缀
      */
     public static final String PLATFORM_BLOCKCHAIN_WEBASE_WE_IDENTITY = BLOCK_CHAIN_WEBASE_PREFIX + "/weidentity";
+
 }
