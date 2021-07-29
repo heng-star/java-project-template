@@ -28,7 +28,7 @@ public class RestTemplateUtil {
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2021/7/22 17:39
      */
-    public static RestTemplate getRestemplate() {
+    public static RestTemplate getRestTemplate() {
         //RestTemplate设置编码
         restTemplate.getMessageConverters().set(1, new StringHttpMessageConverter(StandardCharsets.UTF_8));
         return restTemplate;
