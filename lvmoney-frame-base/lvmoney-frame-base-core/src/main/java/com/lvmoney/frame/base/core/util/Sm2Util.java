@@ -1,6 +1,6 @@
 package com.lvmoney.frame.base.core.util;/**
  * 描述:
- * 包名:com.chdriver.frame.base.core.util
+ * 包名:com.lvmoney.frame.base.core.util
  * 版本信息: 版本1.0
  * 日期:2021/8/31
  * Copyright XXXXXX科技有限公司
@@ -33,7 +33,7 @@ public class Sm2Util {
      * 获得SM2公钥和私钥
      *
      * @throws
-     * @return: com.chdriver.frame.base.core.vo.Sm2CipherVo
+     * @return: com.lvmoney.frame.base.core.vo.Sm2CipherVo
      * @author: lvmoney /XXXXXX科技有限公司
      * @date: 2021/8/31 9:11
      */

@@ -1,6 +1,6 @@
 package com.lvmoney.frame.core.util;/**
  * 描述:
- * 包名:com.chdriver.frame.core.util
+ * 包名:com.lvmoney.frame.core.util
  * 版本信息: 版本1.0
  * 日期:2021/9/1
  * Copyright XXXXXX科技有限公司
