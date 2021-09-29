@@ -16,5 +16,5 @@ public class WeIdCommonConstant {
     /**
      * weid 签名相关前缀
      */
-    public static final String WE_ID_SING_PREFIX = "weid_sign_nonce";
+    public static final String WE_ID_SING_PREFIX = "weidentity:weid_sign_nonce";
 }
