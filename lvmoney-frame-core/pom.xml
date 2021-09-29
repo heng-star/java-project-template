@@ -152,7 +152,7 @@
         <dependency>
             <groupId>com.hankcs</groupId>
             <artifactId>hanlp</artifactId>
-        </dependency>1
+        </dependency>
 
     </dependencies>
     <dependencyManagement>
