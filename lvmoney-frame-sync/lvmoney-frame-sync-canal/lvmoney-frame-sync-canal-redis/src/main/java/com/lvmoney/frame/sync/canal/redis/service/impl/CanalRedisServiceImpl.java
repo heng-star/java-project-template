@@ -23,7 +23,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @version:v1.0 2018年9月30日 上午8:51:33
  */
 @Service
-public class CanalRedisService extends AbstractCanalService {
+public class CanalRedisServiceImpl extends AbstractCanalService {
     @Autowired
     BaseRedisService baseRedisService;
 
